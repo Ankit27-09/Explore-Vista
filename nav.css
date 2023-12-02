@@ -1,0 +1,199 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-image:url("suitcase.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+   
+}
+
+.nav-container {
+    display:flex;
+    height:40px;
+    background-color: rgba(254, 255, 254, 0.42);
+    box-shadow:5px 5px 5px rgb(30, 29, 29);
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+div ul {
+    display:flex;
+    gap:60px;
+    align-items:center;
+    
+    
+   
+}
+
+ul li {
+    list-style:none;
+    display:flex;
+    align-content: center;
+   
+   
+}
+.details-container ul li a {
+    display:flex;
+    text-decoration:none;
+    color:black;
+    align-items: center;
+    font-weight:bold;
+    gap:5px;
+    font-size:larger;
+    
+    
+ }
+
+.Auth button{
+  background-color: #67B8D3;
+  color:rgb(6, 6, 6);
+  margin-right:30px;
+  padding:10px;
+  border-radius:10px;
+  border:2px solid black;
+}
+
+.logo-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    box-shadow:2px solid black;
+    border:rgb(234, 0, 0);
+}
+.logo{
+    display:flex;
+    align-items:center;
+    margin-left:30px;
+}
+img{
+    height:40px;
+
+}
+
+.logo img{
+    /* filter: brightness(100%); */
+    filter:invert(1);
+
+}
+
+
+
+/* below nav Bar */
+
+.main-container {
+    border:1px solid black;
+    height:calc(100vh - 63px);
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    gap:30px;
+}
+
+.content p {
+    text-align:center;
+    font-weight:bold;
+    font-size:40px;
+    font-family:irish Grover;
+    color:rgb(53, 51, 51)
+}
+div input {
+    padding:8px;
+    border-radius:5px ;
+}
+
+.booking-container{
+    display:flex;
+    /* background-color:aqua; */
+    justify-content:space-evenly;
+}
+
+
+.book-button {
+    text-align:center;
+    
+
+}
+.book-button button {
+    padding: 10px;
+    font-size: larger;
+    border-radius:5px;
+    background-color:#67B8D3;
+}
+.box-container {
+    background-color: white;
+    border: 2px solid;
+    display:flex;
+    align-items:center;
+    /* padding:10px; */
+    border-radius:5px;
+
+}
+.box-container input {
+  border:none;
+  width:200px;
+
+} 
+.box-container input:focus {
+    outline:none;
+
+    
+}
+.collection {
+    margin-left:50px;
+    background-color:#f4f4f4;
+    width:20%;
+    padding:10px;
+    font-family:Irish grover;
+    font-size:large;
+    text-align:start;
+    border-radius:10px;
+}
+
+.fav-container {
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+    /* background-color: aquamarine; */
+    
+    
+    
+    
+    
+}
+.fav-container div {
+    
+    position:relative;
+    
+   
+
+}
+
+.cards p{
+    position: absolute;
+    top: 7px;
+    left: 35px;
+    text-align:center;
+    line-height:30px;
+    font-family:irish grover;
+    font-size:30px;
+}
+
+.fav-container div img {
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    
+}
+
+button:hover {
+    background-color:antiquewhite;
+    transition:1s;
+}
